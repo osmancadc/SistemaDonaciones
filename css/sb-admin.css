@@ -10656,8 +10656,8 @@ body {
 
 .navbar-nav .nav-item .nav-link .badge {
   position: absolute;
-  margin-left: 0.75rem;
-  top: 0.3rem;
+  margin-left: 0rem;
+  top: 0.35rem;
   font-weight: 400;
   font-size: 0.5rem;
 }
@@ -10687,19 +10687,6 @@ body {
 .sidebar .nav-item .nav-link span {
   font-size: 0.65rem;
   display: block;
-}
-
-.sidebar .nav-item .dropdown-menu {
-  position: absolute !important;
-  -webkit-transform: none !important;
-  transform: none !important;
-  left: calc(90px + 0.5rem) !important;
-  margin: 0;
-}
-
-.sidebar .nav-item .dropdown-menu.dropup {
-  bottom: 0;
-  top: auto !important;
 }
 
 .sidebar .nav-item.dropdown .dropdown-toggle::after {
